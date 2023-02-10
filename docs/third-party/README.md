@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom.json) with SHA256 checksum ([d777b6f5 ...](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom.json.sha256 "sha256:d777b6f5247b8097be1ac9203f9c833111449b26c942ecd5f3eac61e5ea60840")).
-<!--[[[end]]] (checksum: fa5ccc1c7bf7a8d64a209f2bf7bae957)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom.json) with SHA256 checksum ([b52ba3bd ...](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom.json.sha256 "sha256:b52ba3bd2cd3d5f6dc9729f6400245b2a7e8cf86d5bbcedd594679cfb6fa710c")).
+<!--[[[end]]] (checksum: 19ede92cc0fa300746bdf6a7a5d56c0c)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -10,10 +10,10 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Direct Dependencies
 
 <!--[[[fill direct_dependencies_table()]]]-->
-| Name                                        | Version                                            | License     | Author          | Description (from packaging data)                                             |
-|:--------------------------------------------|:---------------------------------------------------|:------------|:----------------|:------------------------------------------------------------------------------|
-| [msgspec](https://jcristharif.com/msgspec/) | [0.12.0](https://pypi.org/project/msgspec/0.12.0/) | BSD License | Jim Crist-Harif | A fast and friendly JSON/MessagePack library, with optional schema validation |
-<!--[[[end]]] (checksum: 0ffa64f81389e86d2c3a10dd1e674dbc)-->
+| Name                                        | Version                                            | License     | Author          | Description (from packaging data)                                                                        |
+|:--------------------------------------------|:---------------------------------------------------|:------------|:----------------|:---------------------------------------------------------------------------------------------------------|
+| [msgspec](https://jcristharif.com/msgspec/) | [0.13.1](https://pypi.org/project/msgspec/0.13.1/) | BSD License | Jim Crist-Harif | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
+<!--[[[end]]] (checksum: e0c66936f8b9040590a14b4335ae92ac)-->
 
 ### Indirect Dependencies
 
@@ -36,6 +36,6 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
-msgspec==0.12.0
+msgspec==0.13.1
 ````
-<!--[[[end]]] (checksum: 26670b7f41300f1b2cff9aed0d143ff3)-->
+<!--[[[end]]] (checksum: 99e6c49c7a68e06e4e32234d7c0d982b)-->
