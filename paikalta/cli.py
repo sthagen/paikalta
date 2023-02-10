@@ -4,6 +4,7 @@ import json
 import pathlib
 import re
 import sys
+from typing import List, no_type_check
 
 import paikalta.api as api
 from paikalta import (
@@ -21,6 +22,7 @@ from paikalta import (
 )
 
 
+@no_type_check
 def parser():
     """Implementation of command line API returning parser."""
     impl = argparse.ArgumentParser(description='Verifies or modifies the name of a CSAF 2.0 advisory file')
@@ -56,6 +58,7 @@ def parser():
     return impl
 
 
+@no_type_check
 def app(argv=None):
     """Drive the verification or modification of advisory file(name)s per CSAF 2.0 rules."""
     argv = sys.argv[1:] if argv is None else argv

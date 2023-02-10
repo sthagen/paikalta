@@ -3,6 +3,7 @@ import argparse
 import pathlib
 import re
 import sys
+from typing import List, no_type_check
 
 import msgspec
 from paikalta import (
@@ -20,18 +21,21 @@ from paikalta import (
 )
 
 
+@no_type_check
 def load(csaf_path):
     """Load the CSAF data from the path to the JSON file or fail miserably."""
     with open(csaf_path, 'rt', encoding=ENCODING) as handle:
         return msgspec.json.decode(handle.read())
 
 
+@no_type_check
 def dump(csaf_data, csaf_path):
     """Dump the CSAF data formatted to 2 space indent to the JSON file given by the path."""
     with open(csaf_path, 'wt', encoding=ENCODING) as f:
         f.write(msgspec.json.format(msgspec.json.encode(csaf_data)).decode())
 
 
+@no_type_check
 def compute_filename(csaf_data):
     """Derive the filename from document/tracking/id if exists else return the conventional invalid json name."""
     document_tracking_id = INVALID_ID
@@ -41,6 +45,7 @@ def compute_filename(csaf_data):
     return f'{re.sub(VALID_NAME_PAT, "_", document_tracking_id.lower())}.json'
 
 
+@no_type_check
 def process(options: argparse.Namespace):
     """yes"""
     data = load(options.input_file)
