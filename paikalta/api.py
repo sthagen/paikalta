@@ -1,10 +1,10 @@
 """From the place (Finnish: paikalta) we derive the name - application programming interface."""
 import argparse
-import json
 import pathlib
 import re
 import sys
 
+import msgspec
 from paikalta import (
     APP_NAME,
     APP_VERSION,
@@ -23,13 +23,13 @@ from paikalta import (
 def load(csaf_path):
     """Load the CSAF data from the path to the JSON file or fail miserably."""
     with open(csaf_path, 'rt', encoding=ENCODING) as handle:
-        return json.load(handle)
+        return msgspec.json.decode(handle.read())
 
 
 def dump(csaf_data, csaf_path):
-    """Dump the CSAF data formated to 2 space indent to the JSON file given by the path."""
+    """Dump the CSAF data formatted to 2 space indent to the JSON file given by the path."""
     with open(csaf_path, 'wt', encoding=ENCODING) as f:
-        json.dump(csaf_data, f, indent=2)
+        f.write(msgspec.json.format(msgspec.json.encode(csaf_data)).decode())
 
 
 def compute_filename(csaf_data):
