@@ -17,6 +17,26 @@ def test_compute_filename_missing():
     assert api.compute_filename(data) == f'{INVALID_ID}.json'
 
 
+def test_derive():
+    data = {'document': {'tracking': {'id': 'foo'}}}
+    assert api.derive(data) == 'foo.json'
+
+
+def test_derive_invalid_kind_of():
+    data = {'document': {'tracking': {'id': ''}}}
+    assert api.derive(data) == f'{INVALID_ID}.json'
+
+
+def test_filename_is_valid():
+    data = {'document': {'tracking': {'id': 'foo'}}}
+    assert api.filename_is_valid('foo.json', data)
+
+
+def test_filename_is_valid_fail_kind_of():
+    data = {'document': {'tracking': {'id': ''}}}
+    assert api.filename_is_valid(f'{INVALID_ID}.json', data)
+
+
 def test_dump_load(tmp_path):
     data = {'document': {'tracking': {'id': 'foo'}}}
     name = api.compute_filename(data)

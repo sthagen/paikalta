@@ -3,7 +3,7 @@ import argparse
 import pathlib
 import re
 import sys
-from typing import List, no_type_check
+from typing import List, Union, no_type_check
 
 import msgspec
 from paikalta import (
@@ -46,8 +46,23 @@ def compute_filename(csaf_data):
 
 
 @no_type_check
+def derive(pointer: Union[str, dict[str, object], pathlib.Path]) -> str:
+    """Derive the filename from data else return the conventional invalid json name."""
+    return compute_filename(load(pointer) if isinstance(pointer, (str, pathlib.Path)) else pointer)
+
+
+@no_type_check
+def filename_is_valid(path: Union[str, pathlib.Path], data: Union[None, dict[str, object]] = None) -> bool:
+    """Verify the filename from data matches the given (True) else return False."""
+    given = pathlib.Path(path).name
+    data = load(path) if data is None else data
+    derived = compute_filename(data)
+    return derived == given
+
+
+@no_type_check
 def process(options: argparse.Namespace):
-    """yes"""
+    """Process the command line request."""
     data = load(options.input_file)
     current_path = pathlib.Path(options.input_file)
     correct_path = current_path.parent / compute_filename(data)
