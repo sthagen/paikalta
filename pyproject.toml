@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "paikalta"
-version = "2023.2.10"
+version = "2023.2.11"
 description = "From the place (Finnish: paikalta) we derive the name."
 readme = "README.md"
 authors = [
