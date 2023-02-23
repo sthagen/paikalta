@@ -33,7 +33,7 @@ def parser():
         '--labels',
         dest='labels',
         type=str,
-        help='Comma separate pair of SUCC,FAIL labels for verbose mode',
+        help='Comma separate pair of SUCC,FAIL labels (in that order) activating verbose mode',
     )
     impl.add_argument(
         '-v',

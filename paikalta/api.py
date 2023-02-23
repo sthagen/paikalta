@@ -9,6 +9,7 @@ import msgspec
 from paikalta import (
     APP_NAME,
     APP_VERSION,
+    COMMA,
     ENCODING,
     FAIL,
     INVALID_ID,
@@ -64,7 +65,11 @@ def filename_is_valid(path: Union[str, pathlib.Path], data: Union[None, dict[str
 @no_type_check
 def process(options: argparse.Namespace):
     """Process the command line request."""
-    succ, fail = parse_csl_as_is(options.labels) if options.labels else SUCC, FAIL
+    if options.labels:
+        options.verbose = True
+    succ, fail = SUCC, FAIL
+    if options.labels and COMMA in options.labels:
+        succ, fail = parse_csl_as_is(options.labels)
 
     data = load(options.input_file)
     current_path = pathlib.Path(options.input_file)
