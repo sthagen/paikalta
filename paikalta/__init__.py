@@ -26,8 +26,8 @@ ENCODING_ERRORS_POLICY = 'ignore'
 DEFAULT_CONFIG_NAME = '.paikalta.json'
 INVALID_ID = '_invalid'
 VALID_NAME_PAT = r'([^+\-a-z0-9]+)'
-SUCC = 'TRUE'
-FAIL = 'FALSE'
+SUCC = os.getenv(f'{APP_ENV}_SUCC', 'TRUE')
+FAIL = os.getenv(f'{APP_ENV}_FAIL', 'FALSE')
 
 log = logging.getLogger()  # Module level logger is sufficient
 LOG_FOLDER = pathlib.Path('logs')
@@ -58,6 +58,11 @@ __all__: List[str] = [
 def parse_csl(csl: str) -> List[str]:
     """DRY."""
     return [fmt.strip().lower() for fmt in csl.split(COMMA) if fmt.strip()]
+
+
+def parse_csl_as_is(csl: str) -> List[str]:
+    """DRY."""
+    return [fmt.strip() for fmt in csl.split(COMMA) if fmt.strip()]
 
 
 @no_type_check

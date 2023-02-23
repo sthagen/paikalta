@@ -29,11 +29,18 @@ def parser():
     impl.add_argument('input_file', type=str, help='CSAF advisory file to verify or modify the filename of')
     impl.add_argument('-p', '--print', dest='echo', action='store_true', help='Prints the correct filename')
     impl.add_argument(
+        '-l',
+        '--labels',
+        dest='labels',
+        type=str,
+        help='Comma separate pair of SUCC,FAIL labels for verbose mode',
+    )
+    impl.add_argument(
         '-v',
         '--verbose',
         dest='verbose',
         action='store_true',
-        help=f'Prints the logic result as either {SUCC} or {FAIL}',
+        help=f'Prints the logic result as either {SUCC} or {FAIL} if not overridden by --label option',
     )
     impl.add_argument(
         '-a',

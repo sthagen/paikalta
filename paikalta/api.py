@@ -17,6 +17,7 @@ from paikalta import (
     SUCC,
     TS_FORMAT_PAYLOADS,
     VALID_NAME_PAT,
+    parse_csl_as_is,
     log,
 )
 
@@ -63,6 +64,8 @@ def filename_is_valid(path: Union[str, pathlib.Path], data: Union[None, dict[str
 @no_type_check
 def process(options: argparse.Namespace):
     """Process the command line request."""
+    succ, fail = parse_csl_as_is(options.labels) if options.labels else SUCC, FAIL
+
     data = load(options.input_file)
     current_path = pathlib.Path(options.input_file)
     correct_path = current_path.parent / compute_filename(data)
@@ -71,7 +74,7 @@ def process(options: argparse.Namespace):
     if options.echo:
         print(correct_path.name)
     if options.verbose:
-        print(SUCC if ok else FAIL)
+        print(succ if ok else fail)
 
     if ok:
         return 0
