@@ -4,8 +4,29 @@
 
 ```console
 ❯ paikalta
-usage: __main__.py [-h] [-p] [-v] [-a] [-u] input_file
+usage: __main__.py [-h] [-p] [-l LABELS] [-v] [-a] [-u] input_file
 __main__.py: error: the following arguments are required: input_file
+```
+
+or long form:
+
+```console
+❯ paikalta -h
+usage: __main__.py [-h] [-p] [-l LABELS] [-v] [-a] [-u] input_file
+
+Verifies or modifies the name of a CSAF 2.0 advisory file
+
+positional arguments:
+  input_file            CSAF advisory file to verify or modify the filename of
+
+options:
+  -h, --help            show this help message and exit
+  -p, --print           Prints the correct filename
+  -l LABELS, --labels LABELS
+                        Comma separate pair of SUCC,FAIL labels (in that order) activating verbose mode
+  -v, --verbose         Prints the logic result as either TRUE or FALSE if not overridden by --label option
+  -a, --add             Writes the CSAF advisory file to the correct filename if different - will overrule -u/--update if given in addition
+  -u, --update          Renames the CSAF advisory file to the correct filename if necessary - will be overruled by -a/--add if given in addition
 ```
 
 ## OASIS Upstream Valid File Example
