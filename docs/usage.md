@@ -17,6 +17,10 @@ Some variations of using default, verbose, and "print" mode:
 # return code is 0
 ❯ paikalta test/fixtures/upstream/valid/oasis_csaf_tc-csaf_2_0-2021-5-1-11.json -v
 TRUE
+❯ paikalta -l A,B -v test/fixtures/upstream/valid/oasis_csaf_tc-csaf_2_0-2021-5-1-11.json
+A
+❯ PAIKALTA_SUCC=YES paikalta -v test/fixtures/upstream/valid/oasis_csaf_tc-csaf_2_0-2021-5-1-11.json
+YES
 ❯ paikalta test/fixtures/upstream/valid/oasis_csaf_tc-csaf_2_0-2021-5-1-11.json -p
 oasis_csaf_tc-csaf_2_0-2021-5-1-11.json
 ❯ paikalta test/fixtures/upstream/valid/oasis_csaf_tc-csaf_2_0-2021-5-1-11.json -p -v
@@ -33,6 +37,8 @@ Some variations of using default, verbose, and "print" mode:
 # return code is 1
 ❯ paikalta test/fixtures/upstream/invalid/OASIS_CSAF_TC-CSAF_2.0-2021-5-1-01.json -v
 FALSE
+❯ paikalta -l A,B test/fixtures/upstream/invalid/OASIS_CSAF_TC-CSAF_2.0-2021-5-1-01.json
+B
 ❯ paikalta test/fixtures/upstream/invalid/OASIS_CSAF_TC-CSAF_2.0-2021-5-1-01.json -p
 oasis_csaf_tc-csaf_2_0-2021-5-1-01.json
 ❯ paikalta test/fixtures/upstream/invalid/OASIS_CSAF_TC-CSAF_2.0-2021-5-1-01.json -p -v
