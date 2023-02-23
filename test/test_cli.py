@@ -46,3 +46,16 @@ def test_app_invalid_verbose(capsys):
     out, err = capsys.readouterr()
     assert FAIL in out
     assert not err
+
+def test_app_valid_verbose_user(capsys):
+    assert cli.app([str(VALID_NAME), '-l', 'A,B']) == 0
+    out, err = capsys.readouterr()
+    assert 'A' in out
+    assert not err
+
+
+def test_app_invalid_verbose_user(capsys):
+    assert cli.app([str(INVALID_NAME), '-l', 'A,B']) == 1
+    out, err = capsys.readouterr()
+    assert 'B' in out
+    assert not err
