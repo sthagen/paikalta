@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom.json) with SHA256 checksum ([5e3afd10 ...](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom.json.sha256 "sha256:5e3afd1062247bf11694af3a908bf99736f28c6e30fab7e2b6c4b5e417526a90")).
-<!--[[[end]]] (checksum: aa22177bc6cdc1c27330e61809ab3654)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom/cdx.json) with SHA256 checksum ([957edfb2 ...](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom/cdx.json.sha256 "sha256:957edfb2b25d9b261de77d64f8abd47ea85ef8e0ffd92673ab62d225b5bffe3f")).
+<!--[[[end]]] (checksum: c159d7e449da9fb49ee0b1587c7a8d32)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -12,8 +12,8 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 <!--[[[fill direct_dependencies_table()]]]-->
 | Name                                        | Version                                            | License     | Author          | Description (from packaging data)                                                                        |
 |:--------------------------------------------|:---------------------------------------------------|:------------|:----------------|:---------------------------------------------------------------------------------------------------------|
-| [msgspec](https://jcristharif.com/msgspec/) | [0.13.1](https://pypi.org/project/msgspec/0.13.1/) | BSD License | Jim Crist-Harif | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
-<!--[[[end]]] (checksum: e0c66936f8b9040590a14b4335ae92ac)-->
+| [msgspec](https://jcristharif.com/msgspec/) | [0.16.0](https://pypi.org/project/msgspec/0.16.0/) | BSD License | Jim Crist-Harif | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
+<!--[[[end]]] (checksum: 2dace89c8af260977a52ea681ae1ed6f)-->
 
 ### Indirect Dependencies
 
@@ -36,6 +36,6 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
-msgspec==0.13.1
+msgspec==0.16.0
 ````
-<!--[[[end]]] (checksum: 99e6c49c7a68e06e4e32234d7c0d982b)-->
+<!--[[[end]]] (checksum: 65c530d389ea3bf9a288fd12fdb4b161)-->
