@@ -60,6 +60,7 @@ def parse_csl(csl: str) -> List[str]:
     return [fmt.strip().lower() for fmt in csl.split(COMMA) if fmt.strip()]
 
 
+@no_type_check
 def parse_csl_as_is(csl: str) -> List[str]:
     """DRY."""
     return tuple(fmt.strip() for fmt in csl.split(COMMA) if fmt.strip())[:2]

@@ -1,24 +1,12 @@
 """From the place (Finnish: paikalta) we derive the name - command line interface."""
 import argparse
-import json
-import pathlib
-import re
 import sys
-from typing import List, no_type_check
+from typing import no_type_check
 
 import paikalta.api as api
 from paikalta import (
-    APP_NAME,
-    APP_VERSION,
-    ENCODING,
     FAIL,
-    INVALID_ID,
-    LOG_SEPARATOR,
-    QUIET,
     SUCC,
-    TS_FORMAT_PAYLOADS,
-    VALID_NAME_PAT,
-    log,
 )
 
 

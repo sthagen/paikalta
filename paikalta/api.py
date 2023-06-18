@@ -2,24 +2,17 @@
 import argparse
 import pathlib
 import re
-import sys
-from typing import List, Union, no_type_check
+from typing import Union, no_type_check
 
 import msgspec
 from paikalta import (
-    APP_NAME,
-    APP_VERSION,
     COMMA,
     ENCODING,
     FAIL,
     INVALID_ID,
-    LOG_SEPARATOR,
-    QUIET,
     SUCC,
-    TS_FORMAT_PAYLOADS,
     VALID_NAME_PAT,
     parse_csl_as_is,
-    log,
 )
 
 
