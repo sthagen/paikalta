@@ -11,6 +11,7 @@ Third party dependencies are documented in the folder [third-party](docs/third-p
 [![wheel](https://img.shields.io/pypi/wheel/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/paikalta.svg?style=flat)](https://git.sr.ht/~sthagen/paikalta/log)
 
 ## Documentation
 
