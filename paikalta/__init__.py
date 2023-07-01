@@ -12,18 +12,19 @@ __version_info__ = tuple(
     e if '-' not in e else e.split('-')[0] for part in __version__.split('+') for e in part.split('.') if e != 'parent'
 )
 
-APP_NAME = 'From the place (Finnish: paikalta) we derive the name.'
-APP_ALIAS = 'paikalta'
-APP_ENV = 'PAIKALTA'
+APP_ALIAS = str(pathlib.Path(__file__).parent.name)
+APP_ENV = APP_ALIAS.upper()
+APP_NAME = locals()['__doc__']
 APP_VERSION = __version__
-COMMA = ','
 DEBUG = bool(os.getenv(f'{APP_ENV}_DEBUG', ''))
 VERBOSE = bool(os.getenv(f'{APP_ENV}_VERBOSE', ''))
 QUIET = False
 STRICT = bool(os.getenv(f'{APP_ENV}_STRICT', ''))
 ENCODING = 'utf-8'
 ENCODING_ERRORS_POLICY = 'ignore'
-DEFAULT_CONFIG_NAME = '.paikalta.json'
+DEFAULT_CONFIG_NAME = f'.{APP_ALIAS}.json'
+
+COMMA = ','
 INVALID_ID = '_invalid'
 VALID_NAME_PAT = r'([^+\-a-z0-9]+)'
 SUCC = os.getenv(f'{APP_ENV}_SUCC', 'TRUE')
