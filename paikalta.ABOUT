@@ -1,0 +1,14 @@
+name: paikalta
+description: From the place (Finnish: paikalta) we derive the name.
+license_spdx: MIT
+version: 2023.6.18
+spec_version: 1.0
+home_url: https://git.sr.ht/~sthagen/paikalta
+news_url: https://libraries.io/pypi/paikalta/versions.atom
+date: 2023-06-18
+about_resource: ./
+libraries_io_url: https://libraries.io/pypi/paikalta?number=2023.6.18
+vcs_tool: git
+vcs_repository: https://git.sr.ht/~sthagen/paikalta
+vcs_branch: default
+
