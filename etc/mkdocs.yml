@@ -1,5 +1,7 @@
 site_name: Paikalta
 site_description: "From the place (Finnish: paikalta) we derive the name."
+docs_dir: ../docs
+site_dir: ../site
 
 theme:
   name: 'material'
