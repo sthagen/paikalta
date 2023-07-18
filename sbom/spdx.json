@@ -3,23 +3,23 @@
   "spdxVersion" : "SPDX-2.3",
   "creationInfo" : {
     "comment" : "Converted from CycloneDX spec version 1.4",
-    "created" : "2023-06-18T21:08:16Z",
-    "creators" : [ "Tool: CycloneDX:cyclonedx-bom-3.11.0", "Tool: CycloneDX:cyclonedx-python-lib-3.1.5", "Tool: CycloneToSpdx-0.1.4" ],
+    "created" : "2023-07-18T13:45:28Z",
+    "creators" : [ "Tool: CycloneDX:cyclonedx-bom-3.11.2", "Tool: CycloneDX:cyclonedx-python-lib-3.1.5", "Tool: CycloneToSpdx-0.1.4" ],
     "licenseListVersion" : "3.21"
   },
   "name" : "SBOM-for-msgspec",
   "dataLicense" : "CC0-1.0",
   "annotations" : [ {
-    "annotationDate" : "2023-06-18T21:08:18Z",
+    "annotationDate" : "2023-07-18T13:45:29Z",
     "annotationType" : "OTHER",
     "annotator" : "Tool: CycloneToSpdx",
     "comment" : "MISSING_CDX_PROPERTY:extensions={}"
   } ],
-  "documentNamespace" : "https://cyclonedx/fd75a3e5-6601-49b2-b84c-b776f62f0814_1",
+  "documentNamespace" : "https://cyclonedx/7313f9c6-c097-4ab0-881b-6f8854305398_1",
   "packages" : [ {
-    "SPDXID" : "SPDXRef-18a5789b-bab1-4c48-bed2-b3921b1c04de",
+    "SPDXID" : "SPDXRef-87139d61-4bdb-40c1-8aa0-3445e79901f7",
     "annotations" : [ {
-      "annotationDate" : "2023-06-18T21:08:18Z",
+      "annotationDate" : "2023-07-18T13:45:29Z",
       "annotationType" : "OTHER",
       "annotator" : "Tool: CycloneToSpdx",
       "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -28,7 +28,7 @@
     "downloadLocation" : "NOASSERTION",
     "externalRefs" : [ {
       "referenceCategory" : "PACKAGE-MANAGER",
-      "referenceLocator" : "pkg:pypi/msgspec@0.16.0",
+      "referenceLocator" : "pkg:pypi/msgspec@0.17.0",
       "referenceType" : "purl"
     } ],
     "filesAnalyzed" : false,
@@ -36,11 +36,11 @@
     "licenseDeclared" : "NOASSERTION",
     "name" : "msgspec",
     "primaryPackagePurpose" : "LIBRARY",
-    "versionInfo" : "0.16.0"
+    "versionInfo" : "0.17.0"
   } ],
   "relationships" : [ {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-18a5789b-bab1-4c48-bed2-b3921b1c04de"
+    "relatedSpdxElement" : "SPDXRef-87139d61-4bdb-40c1-8aa0-3445e79901f7"
   } ]
 }
