@@ -3,23 +3,23 @@
   "spdxVersion" : "SPDX-2.3",
   "creationInfo" : {
     "comment" : "Converted from CycloneDX spec version 1.4",
-    "created" : "2023-07-18T13:45:28Z",
+    "created" : "2023-08-13T13:22:29Z",
     "creators" : [ "Tool: CycloneDX:cyclonedx-bom-3.11.2", "Tool: CycloneDX:cyclonedx-python-lib-3.1.5", "Tool: CycloneToSpdx-0.1.4" ],
     "licenseListVersion" : "3.21"
   },
   "name" : "SBOM-for-msgspec",
   "dataLicense" : "CC0-1.0",
   "annotations" : [ {
-    "annotationDate" : "2023-07-18T13:45:29Z",
+    "annotationDate" : "2023-08-13T13:22:30Z",
     "annotationType" : "OTHER",
     "annotator" : "Tool: CycloneToSpdx",
     "comment" : "MISSING_CDX_PROPERTY:extensions={}"
   } ],
-  "documentNamespace" : "https://cyclonedx/7313f9c6-c097-4ab0-881b-6f8854305398_1",
+  "documentNamespace" : "https://cyclonedx/61e80e45-019a-4bd6-95b9-d0401c4ea9ed_1",
   "packages" : [ {
-    "SPDXID" : "SPDXRef-87139d61-4bdb-40c1-8aa0-3445e79901f7",
+    "SPDXID" : "SPDXRef-7ae4de31-c09e-4439-9121-3955d229e06d",
     "annotations" : [ {
-      "annotationDate" : "2023-07-18T13:45:29Z",
+      "annotationDate" : "2023-08-13T13:22:30Z",
       "annotationType" : "OTHER",
       "annotator" : "Tool: CycloneToSpdx",
       "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -28,7 +28,7 @@
     "downloadLocation" : "NOASSERTION",
     "externalRefs" : [ {
       "referenceCategory" : "PACKAGE-MANAGER",
-      "referenceLocator" : "pkg:pypi/msgspec@0.17.0",
+      "referenceLocator" : "pkg:pypi/msgspec@0.18.0",
       "referenceType" : "purl"
     } ],
     "filesAnalyzed" : false,
@@ -36,11 +36,11 @@
     "licenseDeclared" : "NOASSERTION",
     "name" : "msgspec",
     "primaryPackagePurpose" : "LIBRARY",
-    "versionInfo" : "0.17.0"
+    "versionInfo" : "0.18.0"
   } ],
   "relationships" : [ {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-87139d61-4bdb-40c1-8aa0-3445e79901f7"
+    "relatedSpdxElement" : "SPDXRef-7ae4de31-c09e-4439-9121-3955d229e06d"
   } ]
 }
