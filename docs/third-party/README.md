@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom/cdx.json) with SHA256 checksum ([2c4270b7 ...](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom/cdx.json.sha256 "sha256:2c4270b73911504d0c1a9bb5898049637ecdd2e72ce3e4785a45fffba2e396da")).
-<!--[[[end]]] (checksum: 79d3f7f60d21e3d8e777faacf38e117a)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom/cdx.json) with SHA256 checksum ([b6017dbb ...](https://git.sr.ht/~sthagen/paikalta/blob/default/sbom/cdx.json.sha256 "sha256:b6017dbbb2398f8e16a70a081659f41bb0f82f1bb959c9ac4f337a22bfe98cd0")).
+<!--[[[end]]] (checksum: 336d32f492fe381e7f60070c7a8594e4)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -12,8 +12,8 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 <!--[[[fill direct_dependencies_table()]]]-->
 | Name                                        | Version                                            | License     | Author          | Description (from packaging data)                                                                        |
 |:--------------------------------------------|:---------------------------------------------------|:------------|:----------------|:---------------------------------------------------------------------------------------------------------|
-| [msgspec](https://jcristharif.com/msgspec/) | [0.16.0](https://pypi.org/project/msgspec/0.16.0/) | BSD License | Jim Crist-Harif | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
-<!--[[[end]]] (checksum: 2dace89c8af260977a52ea681ae1ed6f)-->
+| [msgspec](https://jcristharif.com/msgspec/) | [0.18.0](https://pypi.org/project/msgspec/0.18.0/) | BSD License | Jim Crist-Harif | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
+<!--[[[end]]] (checksum: 62f6723b591cc9ef0d391ed2510a9af5)-->
 
 ### Indirect Dependencies
 
@@ -36,6 +36,6 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
-msgspec==0.16.0
+msgspec==0.18.0
 ````
-<!--[[[end]]] (checksum: 65c530d389ea3bf9a288fd12fdb4b161)-->
+<!--[[[end]]] (checksum: 29913977a93ed482eec625f9881d556e)-->
