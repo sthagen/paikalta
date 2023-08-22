@@ -1,6 +1,6 @@
 SPDXVersion: SPDX-2.3
 DataLicense: CC0-1.0
-DocumentNamespace: https://cyclonedx/f18d1b4b-5099-4ada-a114-29c99e372572_1
+DocumentNamespace: https://cyclonedx/b0b46daa-47ca-4dc7-87fb-dd9e6d6e19d4_1
 DocumentName: SBOM-for-msgspec
 SPDXID: SPDXRef-DOCUMENT
 
@@ -8,21 +8,21 @@ SPDXID: SPDXRef-DOCUMENT
 Creator: Tool: CycloneDX:cyclonedx-bom-3.11.2
 Creator: Tool: CycloneDX:cyclonedx-python-lib-3.1.5
 Creator: Tool: CycloneToSpdx-0.1.4
-Created: 2023-08-16T15:23:36Z
+Created: 2023-08-22T19:29:49Z
 CreatorComment: <text>Converted from CycloneDX spec version 1.4</text>
 LicenseListVersion: 3.21
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-08-16T15:23:40Z
+AnnotationDate: 2023-08-22T19:29:50Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:extensions={}</text>
 AnnotationType: OTHER
 SPDXREF: SPDXRef-DOCUMENT
 ## Relationships
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-175d7c45-cc02-4d17-9414-20dbed3bd251
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ccd5c11c-5bc1-4e84-8127-a69d0228ef6d
 
 ## Package Information
 PackageName: msgspec
-SPDXID: SPDXRef-175d7c45-cc02-4d17-9414-20dbed3bd251
+SPDXID: SPDXRef-ccd5c11c-5bc1-4e84-8127-a69d0228ef6d
 PackageVersion: 0.18.1
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
@@ -32,10 +32,10 @@ PackageCopyrightText: NOASSERTION
 ExternalRef: PACKAGE-MANAGER purl pkg:pypi/msgspec@0.18.1
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-08-16T15:23:40Z
+AnnotationDate: 2023-08-22T19:29:50Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-175d7c45-cc02-4d17-9414-20dbed3bd251
+SPDXREF: SPDXRef-ccd5c11c-5bc1-4e84-8127-a69d0228ef6d
 FilesAnalyzed: false
 
 
