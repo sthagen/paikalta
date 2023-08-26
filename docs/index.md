@@ -7,7 +7,7 @@ From the place (Finnish: paikalta) we derive the name.
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
-[![downloads](https://pepy.tech/badge/paikalta/month)](https://pepy.tech/project/paikalta)
+[![downloads](https://static.pepy.tech/badge/paikalta/month)](https://pepy.tech/project/paikalta)
 [![wheel](https://img.shields.io/pypi/wheel/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
