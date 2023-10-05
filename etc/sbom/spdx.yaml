@@ -3,7 +3,7 @@ SPDXID: "SPDXRef-DOCUMENT"
 spdxVersion: "SPDX-2.3"
 creationInfo:
   comment: "Converted from CycloneDX spec version 1.4"
-  created: "2023-10-03T17:54:56Z"
+  created: "2023-10-05T14:02:06Z"
   creators:
   - "Tool: CycloneDX:cyclonedx-bom-3.11.2"
   - "Tool: CycloneDX:cyclonedx-python-lib-3.1.5"
@@ -12,15 +12,15 @@ creationInfo:
 name: "SBOM-for-msgspec"
 dataLicense: "CC0-1.0"
 annotations:
-- annotationDate: "2023-10-03T17:54:59Z"
+- annotationDate: "2023-10-05T14:02:11Z"
   annotationType: "OTHER"
   annotator: "Tool: CycloneToSpdx"
   comment: "MISSING_CDX_PROPERTY:extensions={}"
-documentNamespace: "https://cyclonedx/1ee6abe4-e007-4f3c-9d6a-4a23241bb117_1"
+documentNamespace: "https://cyclonedx/434ad918-eec9-423c-8672-7c4d048b5c42_1"
 packages:
-- SPDXID: "SPDXRef-a79a29c2-05b0-436a-983a-40c8bc9eccaf"
+- SPDXID: "SPDXRef-461c0792-b310-4a8e-8c14-903ad440b485"
   annotations:
-  - annotationDate: "2023-10-03T17:54:59Z"
+  - annotationDate: "2023-10-05T14:02:11Z"
     annotationType: "OTHER"
     annotator: "Tool: CycloneToSpdx"
     comment: "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -28,15 +28,15 @@ packages:
   downloadLocation: "NOASSERTION"
   externalRefs:
   - referenceCategory: "PACKAGE-MANAGER"
-    referenceLocator: "pkg:pypi/msgspec@0.18.3"
+    referenceLocator: "pkg:pypi/msgspec@0.18.4"
     referenceType: "purl"
   filesAnalyzed: false
   licenseConcluded: "NOASSERTION"
   licenseDeclared: "NOASSERTION"
   name: "msgspec"
   primaryPackagePurpose: "LIBRARY"
-  versionInfo: "0.18.3"
+  versionInfo: "0.18.4"
 relationships:
 - spdxElementId: "SPDXRef-DOCUMENT"
   relationshipType: "DESCRIBES"
-  relatedSpdxElement: "SPDXRef-a79a29c2-05b0-436a-983a-40c8bc9eccaf"
+  relatedSpdxElement: "SPDXRef-461c0792-b310-4a8e-8c14-903ad440b485"
