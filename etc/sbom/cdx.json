@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:434ad918-eec9-423c-8672-7c4d048b5c42",
+  "serialNumber": "urn:uuid:a7c52cbd-f2a0-4843-a79c-fa21f0541c6d",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-10-05T14:02:06.309992+00:00",
+    "timestamp": "2023-10-07T08:24:24.542692+00:00",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -56,7 +56,7 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "461c0792-b310-4a8e-8c14-903ad440b485",
+      "bom-ref": "6dc5a47a-d31e-4755-b342-11f5a2657049",
       "name": "msgspec",
       "version": "0.18.4",
       "purl": "pkg:pypi/msgspec@0.18.4"
@@ -64,7 +64,7 @@
   ],
   "dependencies": [
     {
-      "ref": "461c0792-b310-4a8e-8c14-903ad440b485",
+      "ref": "6dc5a47a-d31e-4755-b342-11f5a2657049",
       "dependsOn": []
     }
   ]
