@@ -45,10 +45,6 @@ if you are a sourcehut user by selecting "Prepare a patchset" on the summary pag
 
 Please kindly submit issues at https://todo.sr.ht/~sthagen/paikalta or write email to ~sthagen/paikalta@lists.sr.ht to submit patches and request support. Thanks.
 
-## Support
-
-Please kindly submit issues at https://todo.sr.ht/~sthagen/paikalta or write email to ~sthagen/paikalta@lists.sr.ht to submit patches and request support. Thanks.
-
 ## Acknowledgements
 
 [Thomas Schmidt](https://github.com/tschmidtb51) provided the original source code as
