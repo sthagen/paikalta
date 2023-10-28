@@ -37,6 +37,10 @@ If you like to share small changes under the repositories license please kindly 
 You can either send such a patchset per email using [git send-email](https://git-send-email.io) or 
 if you are a sourcehut user by selecting "Prepare a patchset" on the summary page of your fork at [sourcehut](https://git.sr.ht/).
 
+## Support
+
+Please kindly submit issues at https://todo.sr.ht/~sthagen/paikalta or write plain text email to ~sthagen/paikalta@lists.sr.ht to submit patches and request support. Thanks.
+
 ## Acknowledgements
 
 [Thomas Schmidt](https://github.com/tschmidtb51) provided the original source code as
