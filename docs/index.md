@@ -2,18 +2,15 @@
 
 From the place (Finnish: paikalta) we derive the name.
 
-[License: MIT](https://git.sr.ht/~sthagen/paikalta/tree/default/item/LICENSE) |
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/paikalta/tree/default/item/COUNTRY-OF-ORIGIN) |
-[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/paikalta/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/paikalta/tree/default/item/LICENSE)
+[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/paikalta/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/paikalta/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
-
-[![version](https://img.shields.io/pypi/v/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
-[![downloads](https://static.pepy.tech/badge/paikalta/month)](https://pepy.tech/project/paikalta)
-[![wheel](https://img.shields.io/pypi/wheel/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
-[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/paikalta.svg?style=flat)](https://git.sr.ht/~sthagen/paikalta/log)
+[![Version](https://img.shields.io/pypi/v/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
+[![Downloads](https://static.pepy.tech/badge/paikalta/month)](https://pepy.tech/project/paikalta)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
+[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/paikalta.svg?style=flat)](https://git.sr.ht/~sthagen/paikalta/log)
 
 ## Bug Tracker
 
