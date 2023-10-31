@@ -9,7 +9,7 @@ From the place (Finnish: paikalta) we derive the name.
 
 [![Version](docs/badges/latest-release.svg)](https://pypi.python.org/pypi/paikalta/)
 [![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/paikalta)
-[![Supported Versions](https://img.shields.io/pypi/pyversions/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)
+[![Python](docs/badges/python-versions.svg)](https://pypi.python.org/pypi/paikalta/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/paikalta/log)
 
 ## Documentation
