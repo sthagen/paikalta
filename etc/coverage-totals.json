@@ -1,7 +1,7 @@
 {
   "paikalta": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:28:48.711694",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 16:26:53 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 116,
@@ -13,6 +13,22 @@
     "num_branches": 28,
     "num_partial_branches": 3,
     "covered_branches": 23,
-    "missing_branches": 5
+    "missing_branches": 5,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 3,
+    "files": [
+      "paikalta/__init__.py",
+      "paikalta/api.py",
+      "paikalta/cli.py"
+    ],
+    "blake3": "b34c72612152f62a751300a7b06d1a7d8b97f5766b6c5d72ead7c8c9d1650ebd",
+    "blake2": "277f16c826b61905ad00916f55b503ddfde75ab7c2af5b149d1806326f43d1d9e319e426b6d10c3e8db0516a7a563450b1c51dc7a18f3fd733c2647b75279cb3",
+    "sha512": "a42a84b87650f5968af32c46aa4523fea414c1645b8bbdec0e55b6be7aa09b2a473b537896318e24fd51e46556187064cc8a0219820af958acf4ddacb871f3b2",
+    "sha384": "f336aa84accbb9fa2e8fa8553be6b06bc78cfca81a7956e1c3112c3cf695633e13edefc008480ebe65be06667f845b91",
+    "sha256": "7c9c95aa55ea0c8de62ffd9a68769e786837c631638f56b91a159f1023812560",
+    "sha1": "6d8959ce27002546660a1773dd2494d96d814cb1",
+    "md5": "7c49b9cc3df763b1d04e63fa9bc07fa8",
+    "python_version": "3.10.12",
+    "entropy": 5.123048
   }
 }
