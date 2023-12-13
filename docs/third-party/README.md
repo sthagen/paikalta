@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/paikalta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([d347cb68 ...](https://git.sr.ht/~sthagen/paikalta/blob/default/etc/sbom/cdx.json.sha256 "sha256:d347cb685591cb47005b0c9d1abe05fb2f9bae6229db1bd2b809d6098ef8492e")).
-<!--[[[end]]] (checksum: 3dac271d6d3326aff5fbb4428fadb296)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/paikalta/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([018bd700 ...](https://git.sr.ht/~sthagen/paikalta/blob/default/etc/sbom/cdx.json.sha256 "sha256:018bd70062f73e205292b7654307bad5b4372a420820a12068e5b1a007cd0b55")).
+<!--[[[end]]] (checksum: e82ffae6b17db674c12a6110c3662845)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -12,8 +12,8 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 <!--[[[fill direct_dependencies_table()]]]-->
 | Name                                        | Version                                            | License     | Author          | Description (from packaging data)                                                                        |
 |:--------------------------------------------|:---------------------------------------------------|:------------|:----------------|:---------------------------------------------------------------------------------------------------------|
-| [msgspec](https://jcristharif.com/msgspec/) | [0.18.4](https://pypi.org/project/msgspec/0.18.4/) | BSD License | Jim Crist-Harif | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
-<!--[[[end]]] (checksum: 1c3c9ba0e18c3fac83af659acb8125cc)-->
+| [msgspec](https://jcristharif.com/msgspec/) | [0.18.5](https://pypi.org/project/msgspec/0.18.5/) | BSD License | Jim Crist-Harif | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
+<!--[[[end]]] (checksum: 222d3a11fbc36373a68fd8dd61093dcc)-->
 
 ### Indirect Dependencies
 
@@ -36,6 +36,6 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
-msgspec==0.18.4
+msgspec==0.18.5
 ````
-<!--[[[end]]] (checksum: 240f24818fc4190703194fc43ca1149d)-->
+<!--[[[end]]] (checksum: 32780e69eef00925684239cfe19141f6)-->
