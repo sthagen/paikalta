@@ -2,11 +2,6 @@
   "data": [
     {
       "category": "3.10",
-      "date": "2023-06",
-      "downloads": 5
-    },
-    {
-      "category": "3.10",
       "date": "2023-07",
       "downloads": 10
     },
@@ -33,12 +28,7 @@
     {
       "category": "3.10",
       "date": "2023-12",
-      "downloads": 247
-    },
-    {
-      "category": "3.11",
-      "date": "2023-06",
-      "downloads": 1
+      "downloads": 255
     },
     {
       "category": "3.11",
@@ -68,7 +58,7 @@
     {
       "category": "3.11",
       "date": "2023-12",
-      "downloads": 218
+      "downloads": 226
     },
     {
       "category": "3.3",
@@ -79,11 +69,6 @@
       "category": "3.3",
       "date": "2023-12",
       "downloads": 4
-    },
-    {
-      "category": "3.9",
-      "date": "2023-06",
-      "downloads": 1
     },
     {
       "category": "3.9",
@@ -114,11 +99,6 @@
       "category": "3.9",
       "date": "2023-12",
       "downloads": 1
-    },
-    {
-      "category": "null",
-      "date": "2023-06",
-      "downloads": 4
     },
     {
       "category": "null",
