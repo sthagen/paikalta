@@ -7,6 +7,7 @@ name = "paikalta"
 version = "2023.6.18"
 description = "From the place (Finnish: paikalta) we derive the name."
 readme = "README.md"
+license = {file = "LICENSE"}
 authors = [
     { name = "Stefan Hagen", email = "stefan@hagen.link" },
 ]
