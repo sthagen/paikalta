@@ -1,4 +1,5 @@
 """From the place (Finnish: paikalta) we derive the name - command line interface."""
+
 import argparse
 import sys
 from typing import no_type_check

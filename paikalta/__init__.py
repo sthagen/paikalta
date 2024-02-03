@@ -1,4 +1,5 @@
 """From the place (Finnish: paikalta) we derive the name."""
+
 import datetime as dti
 import logging
 import os
