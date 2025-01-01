@@ -1,25 +1,43 @@
 {
   "total": {
-    "commits": 2569,
+    "commits": 2573,
     "first_committed_at": "2023-02-10T18:25:52+00:00",
-    "last_committed_at": "2024-12-30T17:03:28+00:00",
-    "month_span_day_count": 688,
-    "year_span": 1.884931506849315,
-    "commits_per_year": 1362,
-    "insertions_per_year": 10535.130813953489,
-    "deletions_per_year": 4614.491279069767,
-    "lines_per_year": 15149.622093023256,
-    "files_per_year": 1470.610465116279,
-    "insertions_count": 19858,
-    "deletions_count": 8698,
-    "lines_count": 28556,
-    "files_count": 2772,
-    "insertions_avg": 7.729855975087583,
-    "deletions_avg": 3.3857532113662905,
-    "lines_avg": 11.115609186453874,
-    "files_avg": 1.0790190735694822
+    "last_committed_at": "2025-01-01T00:48:27+00:00",
+    "month_span_day_count": 690,
+    "year_span": 1.8904109589041096,
+    "commits_per_year": 1361,
+    "insertions_per_year": 10513.58695652174,
+    "deletions_per_year": 4610.108695652174,
+    "lines_per_year": 15123.695652173912,
+    "files_per_year": 1468.9927536231885,
+    "insertions_count": 19875,
+    "deletions_count": 8715,
+    "lines_count": 28590,
+    "files_count": 2777,
+    "insertions_avg": 7.72444617178391,
+    "deletions_avg": 3.3870967741935485,
+    "lines_avg": 11.111542945977458,
+    "files_avg": 1.0792848814613292
   },
   "commit_stats": {
+    "2025-01-01T00:48:27+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2024-12-31T10:40:29+00:00": {
+      "insertions": 5,
+      "deletions": 5,
+      "lines": 10,
+      "files": 2
+    },
+    "2024-12-31T10:40:28+00:00": {
+      "insertions": 11,
+      "deletions": 11,
+      "lines": 22,
+      "files": 2
+    },
     "2024-12-30T17:03:28+00:00": {
       "insertions": 1,
       "deletions": 1,
@@ -16485,6 +16503,20 @@
       "deletions": 29,
       "lines": 43,
       "files": 4
+    },
+    "2024-12-31": {
+      "commits": 2,
+      "insertions": 16,
+      "deletions": 16,
+      "lines": 32,
+      "files": 4
+    },
+    "2025-01-01": {
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
     }
   }
 }
