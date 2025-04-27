@@ -3,7 +3,7 @@
     {
       "category": "3.10",
       "date": "2024-10",
-      "downloads": 93
+      "downloads": 50
     },
     {
       "category": "3.10",
@@ -33,12 +33,12 @@
     {
       "category": "3.10",
       "date": "2025-04",
-      "downloads": 202
+      "downloads": 210
     },
     {
       "category": "3.11",
       "date": "2024-10",
-      "downloads": 64
+      "downloads": 32
     },
     {
       "category": "3.11",
@@ -68,12 +68,12 @@
     {
       "category": "3.11",
       "date": "2025-04",
-      "downloads": 202
+      "downloads": 210
     },
     {
       "category": "3.12",
       "date": "2024-10",
-      "downloads": 66
+      "downloads": 34
     },
     {
       "category": "3.12",
@@ -103,7 +103,7 @@
     {
       "category": "3.12",
       "date": "2025-04",
-      "downloads": 816
+      "downloads": 830
     },
     {
       "category": "3.13",
@@ -128,7 +128,7 @@
     {
       "category": "null",
       "date": "2024-10",
-      "downloads": 9
+      "downloads": 1
     },
     {
       "category": "null",
@@ -158,7 +158,7 @@
     {
       "category": "null",
       "date": "2025-04",
-      "downloads": 145
+      "downloads": 153
     }
   ],
   "package": "paikalta",
