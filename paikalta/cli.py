@@ -63,4 +63,4 @@ def app(argv=None):
 
 
 if __name__ == '__main__':
-    sys.exit(app(sys.argv[1:]))
+    sys.exit(app(sys.argv[1:]))  # pragma: no cover

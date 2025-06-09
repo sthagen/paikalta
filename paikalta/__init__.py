@@ -53,13 +53,7 @@ __all__: List[str] = [
     'SUCC',
     'TS_FORMAT_PAYLOADS',
     'log',
-    'parse_csl',
 ]
-
-
-def parse_csl(csl: str) -> List[str]:
-    """DRY."""
-    return [fmt.strip().lower() for fmt in csl.split(COMMA) if fmt.strip()]
 
 
 @no_type_check

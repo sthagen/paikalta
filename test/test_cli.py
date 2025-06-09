@@ -60,3 +60,27 @@ def test_app_invalid_verbose_user(capsys):
     out, err = capsys.readouterr()
     assert 'B' in out
     assert not err
+
+
+def test_app_valid_add(capsys):
+    ephemeral = pathlib.Path('/tmp') / 'OASIS_CSAF_TC-CSAF_2.0-2021-5-1-01.json'
+    with open(pathlib.Path(INVALID_NAME), 'rt', encoding='utf-8', errors='ignore') as handle:
+        data = handle.read()
+    with open(ephemeral, 'wt', encoding='utf-8', errors='ignore') as handle:
+        handle.write(data)
+    assert cli.app([str(ephemeral), '-a', '-v']) == 1
+    out, err = capsys.readouterr()
+    assert 'FALSE' in out
+    assert not err
+
+
+def test_app_valid_update(capsys):
+    ephemeral = pathlib.Path('/tmp') / 'OASIS_CSAF_TC-CSAF_2.0-2021-5-1-01.json'
+    with open(pathlib.Path(INVALID_NAME), 'rt', encoding='utf-8', errors='ignore') as handle:
+        data = handle.read()
+    with open(ephemeral, 'wt', encoding='utf-8', errors='ignore') as handle:
+        handle.write(data)
+    assert cli.app([str(ephemeral), '-u', '-v']) == 1
+    out, err = capsys.readouterr()
+    assert 'FALSE' in out
+    assert not err
