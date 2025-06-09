@@ -1,33 +1,37 @@
 {
   "info": {
-    "author": "",
+    "author": null,
     "author_email": "Stefan Hagen <stefan@hagen.link>",
     "bugtrack_url": null,
     "classifiers": [
-      "Development Status :: 3 - Alpha",
+      "Development Status :: 4 - Beta",
       "Intended Audience :: Developers",
-      "License :: OSI Approved :: MIT License",
       "Programming Language :: Python :: 3.10",
       "Programming Language :: Python :: 3.11",
       "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
       "Programming Language :: Python :: 3.9"
     ],
-    "description": "# Paikalta\n\nFrom the place (Finnish: paikalta) we derive the name.\n\n[License: MIT](https://git.sr.ht/~sthagen/paikalta/tree/default/item/LICENSE)\n\nThird party dependencies are documented in the folder [third-party](docs/third-party/README.md).\n\n[![version](https://img.shields.io/pypi/v/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)\n[![downloads](https://pepy.tech/badge/paikalta/month)](https://pepy.tech/project/paikalta)\n[![wheel](https://img.shields.io/pypi/wheel/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)\n[![supported-versions](https://img.shields.io/pypi/pyversions/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)\n[![supported-implementations](https://img.shields.io/pypi/implementation/paikalta.svg?style=flat)](https://pypi.python.org/pypi/paikalta/)\n\n## Documentation\n\nUser and developer [documentation of paikalta](https://codes.dilettant.life/docs/paikalta).\n\n## Bug Tracker\n\nAny feature requests or bug reports shall go to the [todos of paikalta](https://todo.sr.ht/~sthagen/paikalta).\n\n## Primary Source repository\n\nThe main source of `paikalta` is on a mountain in central Switzerland.\nWe use distributed version control (git).\nThere is no central hub.\nEvery clone can become a new source for the benefit of all.\nThe preferred public clones of `paikalta` are:\n\n* [on codeberg](https://codeberg.org/sthagen/paikalta) - a democratic community-driven, non-profit software development platform operated by Codeberg e.V.\n* [at sourcehut](https://git.sr.ht/~sthagen/paikalta) - a collection of tools useful for software development.\n\n## Contributions\n\nPlease do not submit \"pull requests\" (I found no way to disable that \"feature\" on GitHub).\nIf you like to share small changes under the repositories license please kindly do so by sending a patchset.\nYou can either send such a patchset per email using [git send-email](https://git-send-email.io) or \nif you are a sourcehut user by selecting \"Prepare a patchset\" on the summary page of your fork at [sourcehut](https://git.sr.ht/).\n\n## Acknowledgements\n\n[Thomas Schmidt](https://github.com/tschmidtb51) provided the original source code as\nscript [`check.py`](https://github.com/oasis-tcs/csaf/blob/master/csaf_2.0/test/filenames/check.py) and\ntest cases in `test/fixtures/upstream/` as contributions to the OASIS CSAF TC repository\nbelow [/csaf_2.0/test/filenames/data](https://github.com/oasis-tcs/csaf/tree/master/csaf_2.0/test/filenames/data).\n\n# Status\n\nExperimental.\n\n**Note**: The default branch is `default`. \n",
+    "description": "# Paikalta\n\nFrom the place (Finnish: paikalta) we derive the name.\n\n[![License](https://git.sr.ht/~sthagen/paikalta/blob/default/docs/badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/paikalta/tree/default/item/LICENSE)\n[![Country of Origin](https://git.sr.ht/~sthagen/paikalta/blob/default/docs/badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/paikalta/tree/default/item/COUNTRY-OF-ORIGIN)\n[![Export Classification Control Number (ECCN)](https://git.sr.ht/~sthagen/paikalta/blob/default/docs/badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/paikalta/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)\n[![Configuration](https://git.sr.ht/~sthagen/paikalta/blob/default/docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/paikalta/tree/default/item/docs/third-party/README.md)\n\n[![Version](https://git.sr.ht/~sthagen/paikalta/blob/default/docs/badges/latest-release.svg)](https://pypi.python.org/pypi/paikalta/)\n[![Downloads](https://git.sr.ht/~sthagen/paikalta/blob/default/docs/badges/downloads-per-month.svg)](https://pepy.tech/project/paikalta)\n[![Python](https://git.sr.ht/~sthagen/paikalta/blob/default/docs/badges/python-versions.svg)](https://pypi.python.org/pypi/paikalta/)\n[![Maintenance Status](https://git.sr.ht/~sthagen/paikalta/blob/default/docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/paikalta/log)\n\n## Documentation\n\nUser and developer [documentation of paikalta](https://codes.dilettant.life/docs/paikalta).\n\n## Bug Tracker\n\nAny feature requests or bug reports shall go to the [todos of paikalta](https://todo.sr.ht/~sthagen/paikalta).\n\n## Primary Source repository\n\nThe main source of `paikalta` is on a mountain in central Switzerland.\nWe use distributed version control (git).\nThere is no central hub.\nEvery clone can become a new source for the benefit of all.\nThe preferred public clone of `paikalta` is:\n\n* [at sourcehut](https://git.sr.ht/~sthagen/paikalta) - a collection of tools useful for software development.\n\n## Contributions\n\nPlease do not submit \"pull requests\" (I found no way to disable that \"feature\" on GitHub).\nIf you like to share small changes under the repositories license please kindly do so by sending a patchset.\nYou can either send such a patchset per email using [git send-email](https://git-send-email.io) or \nif you are a sourcehut user by selecting \"Prepare a patchset\" on the summary page of your fork at [sourcehut](https://git.sr.ht/).\n\n## Support\n\nPlease kindly submit issues at https://todo.sr.ht/~sthagen/paikalta or write plain text email to ~sthagen/paikalta@lists.sr.ht to submit patches and request support. Thanks.\n\n## Acknowledgements\n\n[Thomas Schmidt](https://github.com/tschmidtb51) provided the original source code as\nscript [`check.py`](https://github.com/oasis-tcs/csaf/blob/master/csaf_2.0/test/filenames/check.py) and\ntest cases in `test/fixtures/upstream/` as contributions to the OASIS CSAF TC repository\nbelow [/csaf_2.0/test/filenames/data](https://github.com/oasis-tcs/csaf/tree/master/csaf_2.0/test/filenames/data).\n\n# Status\n\nExperimental.\n\n**Note**: The default branch is `default`. \n",
     "description_content_type": "text/markdown",
     "docs_url": null,
-    "download_url": "",
+    "download_url": null,
     "downloads": {
       "last_day": -1,
       "last_month": -1,
       "last_week": -1
     },
-    "dynamic": null,
-    "home_page": "",
-    "keywords": "developer-tools,devops",
-    "license": "",
-    "license_expression": null,
-    "license_files": null,
-    "maintainer": "",
+    "dynamic": [
+      "License-File"
+    ],
+    "home_page": null,
+    "keywords": "developer-tools, devops",
+    "license": null,
+    "license_expression": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "maintainer": null,
     "maintainer_email": "Stefan Hagen <stefan@hagen.link>",
     "name": "paikalta",
     "package_url": "https://pypi.org/project/paikalta/",
@@ -40,26 +44,28 @@
       "Source-Code": "https://git.sr.ht/~sthagen/paikalta",
       "Test-Coverage": "https://codes.dilettant.life/coverage/paikalta"
     },
-    "provides_extra": null,
-    "release_url": "https://pypi.org/project/paikalta/2023.6.18/",
+    "provides_extra": [
+      "dev"
+    ],
+    "release_url": "https://pypi.org/project/paikalta/2025.6.9/",
     "requires_dist": [
-      "msgspec (>=0.16.0)",
-      "black ; extra == 'dev'",
-      "coverage ; extra == 'dev'",
-      "hypothesis ; extra == 'dev'",
-      "mypy ; extra == 'dev'",
-      "pytest ; extra == 'dev'",
-      "pytest-cov ; extra == 'dev'",
-      "pytest-flake8 ; extra == 'dev'",
-      "ruff ; extra == 'dev'"
+      "msgspec>=0.18.4",
+      "black; extra == \"dev\"",
+      "coverage; extra == \"dev\"",
+      "hypothesis; extra == \"dev\"",
+      "mypy; extra == \"dev\"",
+      "pytest; extra == \"dev\"",
+      "pytest-cov; extra == \"dev\"",
+      "pytest-flake8; extra == \"dev\"",
+      "ruff; extra == \"dev\""
     ],
     "requires_python": ">=3.9",
     "summary": "From the place (Finnish: paikalta) we derive the name.",
-    "version": "2023.6.18",
+    "version": "2025.6.9",
     "yanked": false,
     "yanked_reason": null
   },
-  "last_serial": 18553013,
+  "last_serial": 29523717,
   "releases": {
     "2023.2.10": [
       {
@@ -236,48 +242,92 @@
         "yanked": false,
         "yanked_reason": null
       }
+    ],
+    "2025.6.9": [
+      {
+        "comment_text": null,
+        "digests": {
+          "blake2b_256": "50d43d002a390a697096c3e3834c4613c91b5f5d7eb895d8a9b7654e196e3bc5",
+          "md5": "72866b857596b7afbf46342d0ff30205",
+          "sha256": "e56a9e23137e042576336feebc96f98a31f480d6f264f05dabe1b03cb00b5cf7"
+        },
+        "downloads": -1,
+        "filename": "paikalta-2025.6.9-py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "72866b857596b7afbf46342d0ff30205",
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 7432,
+        "upload_time": "2025-06-09T14:32:51",
+        "upload_time_iso_8601": "2025-06-09T14:32:51.441520Z",
+        "url": "https://files.pythonhosted.org/packages/50/d4/3d002a390a697096c3e3834c4613c91b5f5d7eb895d8a9b7654e196e3bc5/paikalta-2025.6.9-py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": null,
+        "digests": {
+          "blake2b_256": "b1c29348aa2fbd1bcabfd543b28f7df3a91c7fcd91b4316afe3e75a2e9746e79",
+          "md5": "79d1152fa87b384740a59abae4b71a64",
+          "sha256": "8be52c5c1e156b5f6fa6864af79cfac3e51976ed881571858c2ba6f271d94c23"
+        },
+        "downloads": -1,
+        "filename": "paikalta-2025.6.9.tar.gz",
+        "has_sig": false,
+        "md5_digest": "79d1152fa87b384740a59abae4b71a64",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 8066,
+        "upload_time": "2025-06-09T14:32:52",
+        "upload_time_iso_8601": "2025-06-09T14:32:52.729856Z",
+        "url": "https://files.pythonhosted.org/packages/b1/c2/9348aa2fbd1bcabfd543b28f7df3a91c7fcd91b4316afe3e75a2e9746e79/paikalta-2025.6.9.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
     ]
   },
   "urls": [
     {
-      "comment_text": "",
+      "comment_text": null,
       "digests": {
-        "blake2b_256": "78551884aeb62f3843121dd803211ce55e668a33962af5aa10c4368d81a96cf6",
-        "md5": "9ce83234d0aa395434da65d2288567ee",
-        "sha256": "30cbefa01754f416d8825bdcf6fa9d56f40b464cc3a76f04a13ff1115575d4b0"
+        "blake2b_256": "50d43d002a390a697096c3e3834c4613c91b5f5d7eb895d8a9b7654e196e3bc5",
+        "md5": "72866b857596b7afbf46342d0ff30205",
+        "sha256": "e56a9e23137e042576336feebc96f98a31f480d6f264f05dabe1b03cb00b5cf7"
       },
       "downloads": -1,
-      "filename": "paikalta-2023.6.18-py3-none-any.whl",
+      "filename": "paikalta-2025.6.9-py3-none-any.whl",
       "has_sig": false,
-      "md5_digest": "9ce83234d0aa395434da65d2288567ee",
+      "md5_digest": "72866b857596b7afbf46342d0ff30205",
       "packagetype": "bdist_wheel",
       "python_version": "py3",
       "requires_python": ">=3.9",
-      "size": 7273,
-      "upload_time": "2023-06-18T21:29:58",
-      "upload_time_iso_8601": "2023-06-18T21:29:58.166571Z",
-      "url": "https://files.pythonhosted.org/packages/78/55/1884aeb62f3843121dd803211ce55e668a33962af5aa10c4368d81a96cf6/paikalta-2023.6.18-py3-none-any.whl",
+      "size": 7432,
+      "upload_time": "2025-06-09T14:32:51",
+      "upload_time_iso_8601": "2025-06-09T14:32:51.441520Z",
+      "url": "https://files.pythonhosted.org/packages/50/d4/3d002a390a697096c3e3834c4613c91b5f5d7eb895d8a9b7654e196e3bc5/paikalta-2025.6.9-py3-none-any.whl",
       "yanked": false,
       "yanked_reason": null
     },
     {
-      "comment_text": "",
+      "comment_text": null,
       "digests": {
-        "blake2b_256": "672932a0fc6ed2c87f415761c96b670f7955ef1bc1f386fe20ee2df7fe326867",
-        "md5": "9e6cd0ff4922c8d4c2b4e5d2f88a404e",
-        "sha256": "fe2e4612562256a168b0a7c6460bb5cc66648a5cdc064dc685a0a96b55f63b14"
+        "blake2b_256": "b1c29348aa2fbd1bcabfd543b28f7df3a91c7fcd91b4316afe3e75a2e9746e79",
+        "md5": "79d1152fa87b384740a59abae4b71a64",
+        "sha256": "8be52c5c1e156b5f6fa6864af79cfac3e51976ed881571858c2ba6f271d94c23"
       },
       "downloads": -1,
-      "filename": "paikalta-2023.6.18.tar.gz",
+      "filename": "paikalta-2025.6.9.tar.gz",
       "has_sig": false,
-      "md5_digest": "9e6cd0ff4922c8d4c2b4e5d2f88a404e",
+      "md5_digest": "79d1152fa87b384740a59abae4b71a64",
       "packagetype": "sdist",
       "python_version": "source",
       "requires_python": ">=3.9",
-      "size": 7754,
-      "upload_time": "2023-06-18T21:29:59",
-      "upload_time_iso_8601": "2023-06-18T21:29:59.560006Z",
-      "url": "https://files.pythonhosted.org/packages/67/29/32a0fc6ed2c87f415761c96b670f7955ef1bc1f386fe20ee2df7fe326867/paikalta-2023.6.18.tar.gz",
+      "size": 8066,
+      "upload_time": "2025-06-09T14:32:52",
+      "upload_time_iso_8601": "2025-06-09T14:32:52.729856Z",
+      "url": "https://files.pythonhosted.org/packages/b1/c2/9348aa2fbd1bcabfd543b28f7df3a91c7fcd91b4316afe3e75a2e9746e79/paikalta-2025.6.9.tar.gz",
       "yanked": false,
       "yanked_reason": null
     }
