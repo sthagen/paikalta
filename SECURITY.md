@@ -4,10 +4,10 @@
 
 Versions of paikalta currently being supported with security updates.
 
-| Version(s)   | Supported |
-|:------------ |:--------- |
-| 2023.6.18    | yes       |
-| < 2023.6.18  | no        |
+| Version(s) | Supported |
+|:-----------|:--------- |
+| 2025.6.9   | yes       |
+| < 2025.6.9 | no        |
 
 ## Reporting a Vulnerability
 
